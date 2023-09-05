@@ -15,6 +15,5 @@ module.exports = {
             content: `Roundtrip latency: ${ping}ms`,
             ephemeral: true,
         });
-        console.log(`Ping: ${ping}ms`);
     },
 };
